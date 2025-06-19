@@ -1,5 +1,11 @@
 @import url(reset.css);
 
+.zona-superior {
+    position: sticky;
+    top: 1.5rem;
+    background-color: white;
+}
+
 .contenedor-tarea {
     display: flex;
     justify-content: space-between;
@@ -14,7 +20,6 @@
 
 .barra-formulario {
     background-color: #bfd6f7;
-    /* o el color que quieras */
     padding: 1.5rem;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
@@ -35,17 +40,14 @@
 
 .prioridad-urgente {
     background-color: tomato;
-    /* rojo claro */
 }
 
 .prioridad-diaria {
     background-color: lightsteelblue;
-    /* azul claro */
 }
 
 .prioridad-mensual {
     background-color: lightcyan;
-    /* verde claro */
 }
 
 footer {
